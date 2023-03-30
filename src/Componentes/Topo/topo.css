@@ -1,20 +1,27 @@
 .container-topo{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    border: 2px solid red;
+    height: 15vh;
+  /*   background-color: rgb(197, 230, 10); */
 }
 .container-logo{
-
+    
+    border: 2px solid rgb(38, 0, 255);
 }
 .img-logo{
-
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(30, 255, 0);
 }
 .container-link{
+    border: 2px solid rgb(17, 16, 16);
 
 }
 .item-link{
-    position: relative;
-    left: 800px;
+    border: 2px solid rgb(182, 6, 158);
+   
     margin: 20px;
 }

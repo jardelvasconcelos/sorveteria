@@ -1,0 +1,19 @@
+.container-banner{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../../public/assets/banner-home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content-banner{
+    border: 2px solid green;
+    
+}
+.item-banner{
+    border: 2px solid red;
+    
+}

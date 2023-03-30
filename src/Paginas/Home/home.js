@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Topo from '../../Componentes/Topo/topo';
 import Rodape from '../../Componentes/Rodape/rodape';
+import './home.css';
 
 export default function Home() {
     return (
@@ -45,6 +46,5 @@ export default function Home() {
             </main>
             <Rodape />
         </div>
-
     )
 }

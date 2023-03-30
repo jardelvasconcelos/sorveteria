@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 import './topo.css';
 
-
-
 export default function Topo() {
     return (
         <header className="container-topo">
