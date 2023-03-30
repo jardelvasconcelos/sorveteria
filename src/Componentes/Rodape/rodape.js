@@ -11,7 +11,7 @@ export default function Rodape() {
                 <div>
                     <h2>CONTATO</h2>
                     <p>info@meusite.com</p>
-                    <p>Tel: (11) 3456-7890</p>
+                    <p>Tel: (41) 3456-7890</p>
                 </div>
                 <div>
                     <h2>HORÁRIOS</h2>
