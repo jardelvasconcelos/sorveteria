@@ -6,7 +6,7 @@ import Sobre from "../Paginas/Sobre/sobre";
 
 /* COMPONENTE PARA GERENCIAR AS ROTAS */
 
-const Rotas = () => (
+/* const Rotas = () => (
 
     <BrowserRouter>
         <Routes>
@@ -17,4 +17,17 @@ const Rotas = () => (
     </BrowserRouter>
 );
 
-export default Rotas;
+export default Rotas; */
+
+export default function Rotas() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+                <Route path="/sabores" element={<Sabores />} />
+                <Route path="/sobre" element={<Sobre />} />
+            </Routes>
+        </BrowserRouter>
+
+    )
+}
