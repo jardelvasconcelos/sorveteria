@@ -1,3 +1,11 @@
 * {
     box-sizing: border-box;
+  /*   font-family: 'Poppins', sans-serif; */
+    margin: 0;
+    padding: 0;
 }
+/* .limitar-secao{
+    max-width: 1034px;
+    margin: 0 auto;
+} */
+

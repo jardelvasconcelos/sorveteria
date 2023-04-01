@@ -1,5 +1,5 @@
 .container-banner{
-    border: 2px solid blue;
+  /*   border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,43 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 100px;
+    background-color: #f9db79;
 }
 .content-banner{
-    border: 2px solid green;
+  /*   border: 2px solid green; */
     
 }
 .item-banner{
-    border: 2px solid red;
+   /*  border: 2px solid red; */
+ font-family: 'Rubik Mono One', sans-serif;
+ color: white;
+ text-shadow: 5px 5px 5px #080505;
+ font-size: 60px;
     
+}
+.container-sabores,.container-eventos,.container-sobre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-sabores,.img-eventos,.img-sobre{
+  width: 50vw;
+}
+.descricao-sabores,.descricao-eventos,.descricao-sobre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px){
+	.container-sabores,.container-eventos,.container-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
