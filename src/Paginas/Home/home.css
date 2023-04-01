@@ -1,50 +1,101 @@
-.container-banner{
+.container-banner {
   /*   border: 2px solid blue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('../../../public/assets/banner-home.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 100px;
-    background-color: #f9db79;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url('../../../public/assets/banner-home.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 80px;
+  background-color: #f9db79;
 }
-.content-banner{
-  /*   border: 2px solid green; */
-    
+
+.content-banner {}
+
+.item-banner {
+  font-family: 'Rubik Mono One', sans-serif;
+  color: white;
+  text-shadow: 5px 5px 5px #080505;
+  font-size: 60px;
+
 }
-.item-banner{
-   /*  border: 2px solid red; */
- font-family: 'Rubik Mono One', sans-serif;
- color: white;
- text-shadow: 5px 5px 5px #080505;
- font-size: 60px;
-    
-}
-.container-sabores,.container-eventos,.container-sobre{
+
+.container-sabores,
+.container-eventos,
+.container-sobre {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.img-sabores,.img-eventos,.img-sobre{
+
+.item-sabores,
+.item-eventos,
+.item-sobre {
   width: 50vw;
 }
-.descricao-sabores,.descricao-eventos,.descricao-sobre{
+
+.img-sabores,
+.img-eventos,
+.img-sobre {
+  width: 50vw;
+
+}
+
+.descricao-sabores,
+.descricao-eventos,
+.descricao-sobre {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  margin: 50px;
+  width: 50vw;
   text-align: justify;
 }
-@media screen and (max-width: 768px){
-	.container-sabores,.container-eventos,.container-sobre{
+
+span {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .container-sabores,
+  .container-sobre {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
+  .container-eventos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .descricao-sabores,
+  .descricao-eventos,
+  .descricao-sobre {
+    width: 80vw;
+    text-align: justify;
+  }
+  .item-banner {
+    font-size: 30px;
+    text-align: center;
+  }
+  .img-sabores,
+  .img-eventos,
+  .img-sobre {
+    width: 98vw;
+  }
+  .item-sabores,
+  .item-eventos,
+  .item-sobre {
+    width: 98vw;
+  }
+  .container-banner {
+    width: 100vw;
+  }
 }
+@media screen and (max-width: 768px) {}

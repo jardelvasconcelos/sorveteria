@@ -28,3 +28,13 @@
     height: 100px;
     width: 100px;
 }
+@media screen and (max-width: 600px) {
+    .container-footer{
+        height: auto;
+    }
+    .content-footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
