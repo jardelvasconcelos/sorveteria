@@ -3,3 +3,18 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+  --cor1: #f9db79;
+  --cor2: #080505;
+  --cor3: white;
+  --cor4: #808080;
+}
+
+:root{
+  --font1:'Poppins', sans-serif;
+  --font2:'Rubik Mono One', sans-serif;
+  --font3:
+}
+
+

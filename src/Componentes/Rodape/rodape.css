@@ -1,8 +1,6 @@
 .container-footer{
-    background-color: #050505;
-    height: 50vh;
-
-    
+    background-color: var(--cor2);
+    height: 50vh;  
 }
 .content-footer{
     display: flex;
@@ -13,16 +11,16 @@
 }
 .item-footer{
     margin: 40px;
-    color: white;
-    font-family:'Poppins', sans-serif; 
+    color: var(--cor3);
+    font-family:var(--font1); 
     font-size: 12px;
-
 }
 .descricao-footer{
     text-align: center;
-    color: white;
-    font-family:'Poppins', sans-serif; 
+    color: var(--cor3);
+    font-family:var(--font1); 
     padding-bottom: 20px;
+    font-size: 10px;
 }
 .img-footer{
     height: 100px;
