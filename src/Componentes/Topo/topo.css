@@ -24,13 +24,19 @@
     color:var(--cor2) ;
     text-decoration: none;
     font-family:'Poppins', sans-serif; 
+    
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .container-topo{
         flex-direction: column;
     }
     .container-link{
         border-top: 2px solid var(--cor4);
         padding-top: 0px;
+        width: 100vw;
+        text-align: center;
+    }
+    .item-link{
+        
     }
 }

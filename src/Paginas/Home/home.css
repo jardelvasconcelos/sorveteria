@@ -65,7 +65,7 @@ span {
   font-style: italic;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .container-sabores,
   .container-sobre {
     display: flex;
@@ -101,8 +101,8 @@ span {
   }
   .container-banner {
     width: 100vw;
-    background-size: cover;
-   /*  height: 100vh; */
+    background-size: 80vh;
+    height: 100vh;
   }
 }
 @media screen and (max-width: 768px) {}
